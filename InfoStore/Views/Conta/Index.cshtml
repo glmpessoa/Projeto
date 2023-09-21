@@ -1,0 +1,9 @@
+﻿@model List<string>
+
+<h1>Lista de Contas</h1>
+
+<p>Listar todas as contas do banco de dados</p>
+
+@foreach(var item in Model){
+    <h2> @item </h2>
+}
